@@ -1,0 +1,58 @@
+.logo-img{
+    width:100px;
+    height:100px;
+}
+.chat_icon{
+    font-size:20px;
+    color:#27ae60;
+    position:relative;top:11px;
+    right:20px;
+}
+
+.pro_icon{
+    font-size:20px;
+    color:white;
+    position:relative;
+    right:5px;
+}
+.s-logo{
+    font-size:30px !important;
+}
+.post-btn{
+    position:relative;
+    left:10px;
+}
+.S-post{
+    display:none;
+}
+@media(max-width:760px){
+    .chat_icon{
+    position:relative;
+    top:0px;
+    right:0px;
+}
+.txt{
+    display:block;
+}
+.post-btn{
+        display:none;
+    }
+    .S-post{
+        display:block;
+    }
+}
+
+@media(max-width:350px){
+    .hide{
+        display:none;
+    }
+}
+@media(max-width:600px){
+    body,html{
+        overflow:visible;
+        
+    }
+    body{
+        background-size:cover;
+    }
+}
